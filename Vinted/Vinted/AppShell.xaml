@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Vinted.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Vinted"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Vinted">
+
+    <TabBar>
+        <ShellContent Title="Główna"
+                Icon="home.png"
+                ContentTemplate="{DataTemplate local:MainPage}" />
+
+        <ShellContent Title="Szafka"
+                Icon="clotheshanger.png"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+        <ShellContent Title="Sprzedaj"
+                Icon="add.png"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+        <ShellContent Title="Wiadomości"
+                Icon="envelope.png"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+
+        <ShellContent Title="Profil"
+                Icon="user.png"
+                ContentTemplate="{DataTemplate local:MainPage}"/>
+    </TabBar>
+</Shell>
