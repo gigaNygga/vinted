@@ -34,6 +34,11 @@ namespace Vinted
             if (product != null)
                 await Navigation.PushAsync(new ProductDetailPage(product));
         }
+
+        private async void Szukaj(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class Product

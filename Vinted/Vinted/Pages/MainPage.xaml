@@ -15,9 +15,22 @@
         FontSize="Large"
         HorizontalOptions="Center"/>
 
-            <Entry
-        PlaceholderColor="DimGrey"
-        Placeholder="Wyszukaj przedmioty..."/>
+            <HorizontalStackLayout>
+                <Entry
+                    PlaceholderColor="DimGrey"
+                    Placeholder="Wyszukaj przedmioty..."
+                    WidthRequest="340"
+                    />      
+
+                <ImageButton
+                    WidthRequest="20"
+                    HeightRequest="20"
+                    Source="Images/search.png"
+                    Clicked="Szukaj"
+                    />
+
+            </HorizontalStackLayout>
+            
 
             <Grid>
                 <Grid.ColumnDefinitions>
