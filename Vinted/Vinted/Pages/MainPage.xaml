@@ -8,7 +8,7 @@
         <VerticalStackLayout
     Padding="10"
     Spacing="10">
-
+            <!--https://www.youtube.com/watch?v=7pO3A8VvtRM-->
             <!--<Image Source="logo.png"/>-->
             <Label
         Text="LOGO"
@@ -36,10 +36,11 @@
                 </Grid>
 
                 <Grid Grid.Column="1"
-              Margin="5">
+                        Margin="5">
+                    
                     <Button Text="HOT DEALS"
-                    FontSize="25"
-                    FontAttributes="Bold"
+                            FontSize="25"
+                            FontAttributes="Bold"
                     Padding="10,35"
                     Background="#2d728f"/>
                 </Grid>
