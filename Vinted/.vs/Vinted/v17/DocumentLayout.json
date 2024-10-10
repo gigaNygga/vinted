@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml",
               "ToolTip": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml",
               "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-09T07:18:35.045Z",
               "EditorCaption": ""
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
               "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwCUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T07:11:34.714Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "Vinted\\Pages\\ProductDetailPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T07:10:48.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T07:10:48.375Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "Vinted\\Pages\\ProductDetailPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-09T07:09:47.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T07:09:47.248Z"
             }
           ]
         }

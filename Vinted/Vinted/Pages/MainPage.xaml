@@ -20,6 +20,7 @@
                     PlaceholderColor="DimGrey"
                     Placeholder="Wyszukaj przedmioty..."
                     WidthRequest="340"
+                    x:Name="entrySZ"
                     />      
 
                 <ImageButton
@@ -62,7 +63,7 @@
         Text="Wybierz coś dla siebie!"
         FontSize="Title"/>
 
-            <CollectionView ItemsSource="{Binding Products}">
+            <CollectionView x:Name="ListaProduktow">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="2" />
                 </CollectionView.ItemsLayout>

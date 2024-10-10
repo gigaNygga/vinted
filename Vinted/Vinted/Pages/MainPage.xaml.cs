@@ -18,12 +18,16 @@ namespace Vinted
         {
             Products = new List<Product>
             {
-                new Product { Name = "Produkt 1", Price = 59.99, Image = "produkt1.jpg" },
+                new Product { Name = "aaa", Price = 59.99, Image = "produkt1.jpg" },
                 new Product { Name = "Produkt 2", Price = 89.99, Image = "produkt2.jpg" },
                 new Product { Name = "Produkt 3", Price = 45.50, Image = "produkt3.jpg" },
                 new Product { Name = "Produkt 4", Price = 120.00, Image = "produkt4.jpg" },
                 new Product { Name = "Produkt 5", Price = 11.11, Image = "produkt5.jpg" }
             };
+
+            
+
+            ListaProduktow.ItemsSource = Products;
         }
 
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)
@@ -35,8 +39,17 @@ namespace Vinted
                 await Navigation.PushAsync(new ProductDetailPage(product));
         }
 
-        private async void Szukaj(object sender, EventArgs e)
+        public void Szukaj(object sender, EventArgs e)
         {
+
+            //string valuee = "aaa";
+
+            List<Product> ProductsFiltered = [Products[0]];
+
+
+            Products = ProductsFiltered;
+
+            ListaProduktow.ItemsSource = ProductsFiltered;
 
         }
     }
