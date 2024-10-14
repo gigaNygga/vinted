@@ -20,14 +20,14 @@
                     PlaceholderColor="DimGrey"
                     Placeholder="Wyszukaj przedmioty..."
                     WidthRequest="340"
-                    x:Name="entrySZ"
+                    x:Name="userInput"
                     />      
 
                 <ImageButton
                     WidthRequest="20"
                     HeightRequest="20"
                     Source="Images/search.png"
-                    Clicked="Szukaj"
+                    Clicked="ImageButton_Clicked"
                     />
 
             </HorizontalStackLayout>

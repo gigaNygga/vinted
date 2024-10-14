@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vinted.Pages.SearchPage"
+             Title="SearchPage">
+    <VerticalStackLayout>
+    
+        
+            <!--HERE-->
+        <Frame BorderColor="Gray"
+                   CornerRadius="0"
+                   Padding="0"
+                   Margin="1,10,1,10">
+            <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="Auto">
+                <!-- Pierwszy przycisk -->
+                <Button Text="Cena"
+                            BackgroundColor="White"
+                            TextColor="Black"
+                            Grid.Column="0"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="Center" />
+
+                <!-- Separator jako obramowanie pomiędzy przyciskami -->
+                <BoxView BackgroundColor="Gray"
+                             WidthRequest="1"
+                             HorizontalOptions="Center"
+                             VerticalOptions="FillAndExpand"
+                             Grid.Column="1" />
+
+                <!-- Drugi przycisk -->
+                <Button Text="Filtruj"
+                            BackgroundColor="White"
+                            TextColor="Black"
+                            Grid.Column="2"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="Center" />
+            </Grid>
+        </Frame>
+
+
+
+        <ScrollView>
+            <VerticalStackLayout>
+        
+                <CollectionView x:Name="ListaProduktow">
+                
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="2" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Margin="5" Padding="0" HasShadow="True" CornerRadius="5">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1"
+                                          Tapped="TapGestureRecognizer_Tapped"/>
+                                </Frame.GestureRecognizers>
+                                <StackLayout>
+                                    <Image Source="{Binding Image}" Aspect="AspectFill" HeightRequest="150"/>
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Medium" Margin="7, 0, 5, 0" />
+                                    <Label Text="{Binding Price}" FontSize="Medium" Margin="7, 0, 5, 5" />
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                
+                </CollectionView>
+
+
+            </VerticalStackLayout>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
