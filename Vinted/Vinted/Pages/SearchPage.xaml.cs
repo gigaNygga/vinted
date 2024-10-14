@@ -1,4 +1,4 @@
-namespace Vinted.Pages;
+﻿namespace Vinted.Pages;
 
 public partial class SearchPage : ContentPage
 {
@@ -10,8 +10,8 @@ public partial class SearchPage : ContentPage
         this.tekst = tekst;
         WyszukajProdukty();
 	}
-
-    private void WyszukajProdukty()
+    public List<Product> aktualneProdukty = new List<Product>();
+    public void WyszukajProdukty()
     {
         List<Product> produkty = new List<Product>
             {
@@ -31,7 +31,7 @@ public partial class SearchPage : ContentPage
                 produktyPrzeszukane.Add(produkty[i]);
             }
         }
-
+        aktualneProdukty = produktyPrzeszukane;
         ListaProduktow.ItemsSource = produktyPrzeszukane;
     }
 
@@ -42,5 +42,28 @@ public partial class SearchPage : ContentPage
 
         if (product != null)
             await Navigation.PushAsync(new ProductDetailPage(product));
+    }
+
+    bool rosnaco = true;
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+        List<Product> PosortowaneProdukty;
+        if (rosnaco)
+        {
+            PosortowaneProdukty = aktualneProdukty.OrderBy(p => p.Price).ToList();
+            cena.Text = "Cena ↑";
+        }
+        else
+        {
+            PosortowaneProdukty = aktualneProdukty.OrderByDescending(p => p.Price).ToList();
+            cena.Text = "Cena ↓";
+        }
+
+        rosnaco = !rosnaco;
+        aktualneProdukty = PosortowaneProdukty;
+        ListaProduktow.ItemsSource = aktualneProdukty;
+        
+
+
     }
 }

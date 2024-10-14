@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\exwer\\Documents\\GitHub\\vinted\\Vinted\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\exwer\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\exwer\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\exwer\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\exwer\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,26 +46,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SearchPage.xaml",
               "DocumentMoniker": "C:\\Users\\exwer\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
               "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml",
               "ToolTip": "C:\\Users\\exwer\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
               "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-14T15:41:04.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "SearchPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\exwer\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
               "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml.cs",
               "ToolTip": "C:\\Users\\exwer\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
               "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAASwBwAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T15:41:10.181Z",
               "EditorCaption": ""
@@ -91,7 +91,7 @@
               "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\exwer\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
               "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowDMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T07:11:34.714Z",
               "EditorCaption": ""

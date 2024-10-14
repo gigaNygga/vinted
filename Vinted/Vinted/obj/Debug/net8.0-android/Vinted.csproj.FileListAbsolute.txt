@@ -2085,3 +2085,4 @@ C:\Users\exwer\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\st
 C:\Users\exwer\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\exwer\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\exwer\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\exwer\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\gora.png
