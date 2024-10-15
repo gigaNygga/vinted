@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Vinted.MainPage"
+             x:Class="Vinted.Pages.MainPage"
              Shell.NavBarIsVisible="False">
-
+    <!--https://www.youtube.com/watch?v=7pO3A8VvtRM-->
     <ScrollView>
         <VerticalStackLayout
-    Padding="10"
-    Spacing="10">
-            <!--https://www.youtube.com/watch?v=7pO3A8VvtRM-->
+            Padding="10"
+            Spacing="10">
+
             <!--<Image Source="logo.png"/>-->
             <Label
-        Text="LOGO"
-        FontSize="Large"
-        HorizontalOptions="Center"/>
+                Text="LOGO"
+                FontSize="Large"
+                HorizontalOptions="Center"/>
 
             <Entry
-        PlaceholderColor="DimGrey"
-        Placeholder="Wyszukaj przedmioty..."/>
+                PlaceholderColor="DimGrey"
+                Placeholder="Wyszukaj przedmioty..."/>
 
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -26,29 +26,28 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid Grid.Column="0"
-              Margin="5">
+                    Margin="5">
                     <Button Text="Promocje!"
-                    FontSize="25"
-                    FontAttributes="Bold"
-                    TextColor="Black"
-                    Padding="10,35"
-                    Background="#f5ee9e"/>
+                        FontSize="25"
+                        FontAttributes="Bold"
+                        TextColor="Black"
+                        Padding="10,35"
+                        Background="#f5ee9e"/>
                 </Grid>
 
                 <Grid Grid.Column="1"
-                        Margin="5">
+                    Margin="5">
                     
                     <Button Text="HOT DEALS"
-                            FontSize="25"
-                            FontAttributes="Bold"
-                    Padding="10,35"
-                    Background="#2d728f"/>
+                        FontSize="25"
+                        FontAttributes="Bold"
+                        Padding="10,35"
+                        Background="#2d728f"/>
                 </Grid>
             </Grid>
 
-            <Label
-        Text="Wybierz coś dla siebie!"
-        FontSize="Title"/>
+            <Label Text="Wybierz coś dla siebie!"
+                FontSize="Title"/>
 
             <CollectionView ItemsSource="{Binding Products}">
                 <CollectionView.ItemsLayout>

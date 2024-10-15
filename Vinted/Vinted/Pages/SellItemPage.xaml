@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vinted.Pages.SellItemPage"
+             Title="SellItemPage"
+             Shell.NavBarIsVisible="False">
+    <ScrollView>
+        <VerticalStackLayout 
+            Padding="10"
+            Spacing="10">
+
+            <Label
+                Text="Sprzedaj przedmiot"
+                FontSize="Medium"
+                HorizontalOptions="Center"/>
+
+            <Button Text="{Binding AddPhotosButtonText}"
+                    IsEnabled="{Binding IsAddPhotosButtonEnabled}"
+                    Clicked="AddPhotosClicked"
+                    HorizontalOptions="Center"/>
+
+            <CollectionView x:Name="PhotosCollectionView"
+                            ItemsSource="{Binding Photos}"
+                            HeightRequest="150"
+                            HorizontalScrollBarVisibility="Always"
+                            ItemsLayout="HorizontalList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="5"
+                               Margin="5"
+                               HasShadow="True"
+                               WidthRequest="120"
+                               HeightRequest="120">
+                            <Image Source="{Binding}"
+                               Aspect="AspectFill"
+                               HeightRequest="120"
+                               WidthRequest="120"/>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

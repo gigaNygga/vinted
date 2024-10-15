@@ -1,6 +1,4 @@
-﻿using Vinted.Pages;
-
-namespace Vinted
+﻿namespace Vinted.Pages
 {
     public partial class MainPage : ContentPage
     {
