@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Vinted.Pages.MainPage"
              Shell.NavBarIsVisible="False">
-    <!--https://www.youtube.com/watch?v=7pO3A8VvtRM-->
+    
     <ScrollView>
         <VerticalStackLayout
             Padding="10"

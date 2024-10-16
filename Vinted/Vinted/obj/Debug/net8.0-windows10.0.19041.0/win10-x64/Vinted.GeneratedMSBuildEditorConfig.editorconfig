@@ -8,47 +8,47 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Vinted
-build_property.ProjectDir = C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\
+build_property.ProjectDir = C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/kuczk/Documents/GitHub/vinted/Vinted/Vinted/App.xaml]
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/kuczk/Documents/GitHub/vinted/Vinted/Vinted/AppShell.xaml]
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/kuczk/Documents/GitHub/vinted/Vinted/Vinted/Pages/MainPage.xaml]
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
 
-[C:/Users/kuczk/Documents/GitHub/vinted/Vinted/Vinted/Pages/ProductDetailPage.xaml]
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/ProductDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.ProductDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ProductDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProductDetailPage.xaml
 
-[C:/Users/kuczk/Documents/GitHub/vinted/Vinted/Vinted/Pages/SellItemPage.xaml]
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SellItemPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SellItemPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SellItemPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SellItemPage.xaml
 
-[C:/Users/kuczk/Documents/GitHub/vinted/Vinted/Vinted/Resources/Styles/Colors.xaml]
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/kuczk/Documents/GitHub/vinted/Vinted/Vinted/Resources/Styles/Styles.xaml]
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
