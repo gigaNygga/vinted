@@ -4,7 +4,6 @@
              x:Class="Vinted.Pages.ProductDetailPage"
              Title="ProductDetailPage"
              Shell.NavBarIsVisible="False">
-    
     <ScrollView>
         <VerticalStackLayout Padding="20">
             <Image Source="{Binding Image}" 

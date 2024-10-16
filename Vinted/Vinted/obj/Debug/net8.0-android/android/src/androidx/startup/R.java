@@ -8,6 +8,10 @@ package androidx.startup;
 
 public final class R {
 	public static final class string {
+<<<<<<< HEAD
 		public static final int androidx_startup = 0x7f0f001b;
+=======
+		public static final int androidx_startup = 0x7f11001b;
+>>>>>>> Fabian
 	}
 }
