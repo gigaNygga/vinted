@@ -3,10 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Vinted.dll" comes first in this list. */
 		"Vinted.dll",
-<<<<<<< HEAD
-=======
 		"CommunityToolkit.Maui.MediaElement.dll",
->>>>>>> Fabian
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -23,8 +20,6 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.dll",
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Graphics.dll",
-<<<<<<< HEAD
-=======
 		"ExoPlayer.dll",
 		"ExoPlayer.Common.dll",
 		"ExoPlayer.Container.dll",
@@ -40,7 +35,6 @@ public class MonoPackageManager_Resources {
 		"ExoPlayer.SmoothStreaming.dll",
 		"ExoPlayer.Transformer.dll",
 		"ExoPlayer.UI.dll",
->>>>>>> Fabian
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",
@@ -89,10 +83,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll",
 		"Xamarin.AndroidX.Loader.dll",
 		"Xamarin.AndroidX.LocalBroadcastManager.dll",
-<<<<<<< HEAD
-=======
 		"Xamarin.AndroidX.Media.dll",
->>>>>>> Fabian
 		"Xamarin.AndroidX.Navigation.Common.dll",
 		"Xamarin.AndroidX.Navigation.Fragment.dll",
 		"Xamarin.AndroidX.Navigation.Runtime.dll",
@@ -120,11 +111,8 @@ public class MonoPackageManager_Resources {
 		"Jsr305Binding.dll",
 		"Xamarin.Google.Crypto.Tink.Android.dll",
 		"Xamarin.Google.ErrorProne.Annotations.dll",
-<<<<<<< HEAD
-=======
 		"Xamarin.Google.Guava.dll",
 		"Xamarin.Google.Guava.FailureAccess.dll",
->>>>>>> Fabian
 		"Xamarin.Google.Guava.ListenableFuture.dll",
 		"Xamarin.Jetbrains.Annotations.dll",
 		"Xamarin.Kotlin.StdLib.dll",

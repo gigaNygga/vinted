@@ -3254,7 +3254,7 @@ int drawable produkt2 0x7f08013a
 int drawable produkt3 0x7f08013b
 int drawable produkt4 0x7f08013c
 int drawable produkt5 0x7f08013d
-int drawable splash 0x7f08013e
+int drawable search 0x7f08013e
 int drawable test_level_drawable 0x7f08013f
 int drawable tooltip_frame_dark 0x7f080140
 int drawable tooltip_frame_light 0x7f080141
