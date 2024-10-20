@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vinted.FilterPopupView"
+             IsVisible="False"
+             BackgroundColor="Transparent">
+    <ContentView.Content>
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <!-- Półprzezroczyste tło -->
+            <BoxView Color="Black" Opacity="0.3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+
+            <!-- Popup Frame -->
+            <Frame BackgroundColor="White"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   CornerRadius="10"
+                   Padding="20"
+                   WidthRequest="300" HeightRequest="400">
+                
+                    
+                <!--<ScrollView IsEnabled="True" VerticalOptions="FillAndExpand" >-->
+                        <VerticalStackLayout Padding="0" VerticalOptions="FillAndExpand">
+                            <Label Text="Filtry" FontSize="22" HorizontalOptions="Center" />
+
+
+                            <Label Text="Cena" Margin="0,0,0,0" FontSize="16"/>
+                            <HorizontalStackLayout Margin="0,5,0,0" Padding="0">
+                                <Border Stroke="HotPink" StrokeThickness="1.2" Padding="0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="5"/>
+                                    </Border.StrokeShape>
+
+                                    <Entry Placeholder="od" HeightRequest="35" Margin="0" FontSize="13" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+
+                                </Border>
+
+                                <Label Text=" - " FontSize="20"/>
+
+                                <Border Stroke="HotPink" StrokeThickness="1.2" Padding="0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="5"/>
+                                    </Border.StrokeShape>
+
+                                    <Entry Placeholder="do" HeightRequest="35" Margin="0" FontSize="13" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+
+                                </Border>
+                            </HorizontalStackLayout>
+
+                            <Label Text="Stan" Margin="0,5,0,0" FontSize="16"/>
+
+                            <HorizontalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="0">
+                                <CheckBox IsChecked="True" HorizontalOptions="StartAndExpand" Margin="0,5,10,0" HeightRequest="20" WidthRequest="20" Color="HotPink"/>
+                                <Label Text="Nowe" FontSize="15" VerticalOptions="End"/>
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="0">
+                            <CheckBox IsChecked="True" HorizontalOptions="StartAndExpand" Margin="0,5,10,0" HeightRequest="20" WidthRequest="20" Color="HotPink"/>
+                                <Label Text="Bardzo dobry" FontSize="15" VerticalOptions="End"/>
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="0">
+                            <CheckBox IsChecked="True" HorizontalOptions="StartAndExpand" Margin="0,5,10,0" HeightRequest="20" WidthRequest="20" Color="HotPink"/>
+                                <Label Text="Dobry" FontSize="15" VerticalOptions="End"/>
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="0">
+                            <CheckBox IsChecked="True" HorizontalOptions="StartAndExpand" Margin="0,5,10,0" HeightRequest="20" WidthRequest="20" Color="HotPink"/>
+                                <Label Text="Zadowalający" FontSize="15" VerticalOptions="End"/>
+                            </HorizontalStackLayout>
+
+                            <HorizontalStackLayout VerticalOptions="Start" HorizontalOptions="Start" Padding="0">
+                                <CheckBox IsChecked="True" HorizontalOptions="StartAndExpand" Margin="0,5,10,0" HeightRequest="20" WidthRequest="20" Color="HotPink"/>
+                                <Label Text="Nie w pełni sprawny" FontSize="15" VerticalOptions="End"/>
+                            </HorizontalStackLayout>
+
+                        <Label Text="Płeć" Margin="0,5,0,5" FontSize="16"/>
+                        <Border BackgroundColor="HotPink">
+                        <Grid RowDefinitions="Auto" ColumnDefinitions="*,*,*" VerticalOptions="Center" HorizontalOptions="StartAndExpand" Padding="0" Margin="0,0,0,0">
+                            
+                            <!-- Kobiety Button -->
+                            <Button x:Name="KobietyButton"
+                            Grid.Column="0" 
+                            Text="Kobiety"
+                            BackgroundColor="White"
+                            Clicked="OnButtonClicked"
+                            TextColor="HotPink"
+                            BorderWidth="1" Margin="0" WidthRequest="85" Padding="5" CornerRadius="0"/>
+
+                            <!-- Mężczyźni Button -->
+                            <Button x:Name="MezczyzniButton"
+                            Grid.Column="1" 
+                            Text="Mężczyźni"
+                            BackgroundColor="White"
+                            Clicked="OnButtonClicked"
+                            TextColor="HotPink"
+                            BorderWidth="1" Padding="5" WidthRequest="85" CornerRadius="0"/>
+
+                            <!-- Unisex Button -->
+                            <Button x:Name="UnisexButton"
+                            Grid.Column="2" 
+                            Text="Unisex"
+                            BackgroundColor="White"
+                            Clicked="OnButtonClicked"
+                            TextColor="HotPink"
+                            BorderWidth="1" Padding="5" WidthRequest="85" CornerRadius="0"/>
+                            
+                        </Grid>
+                        </Border>
+
+                        <Button Text="Gotowe!"
+                                Background="White"
+                                TextColor="HotPink"
+                                FontAttributes="Bold"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="EndAndExpand"
+                                Clicked="OnCloseClicked"/>
+                    </VerticalStackLayout>
+                <!--</ScrollView>-->
+               
+            </Frame>
+        </Grid>
+    </ContentView.Content>
+</ContentView>
