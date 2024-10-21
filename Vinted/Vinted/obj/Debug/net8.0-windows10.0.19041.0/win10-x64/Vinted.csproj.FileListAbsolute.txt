@@ -454,3 +454,10 @@ C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-wind
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Vinted.dll
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\refint\Vinted.dll
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\Vinted.pdb
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf

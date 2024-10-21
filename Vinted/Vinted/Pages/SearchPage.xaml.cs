@@ -2,7 +2,7 @@
 
 public partial class SearchPage : ContentPage
 {
-	private string tekst;
+	private string tekst = "";
 	public SearchPage(string tekst)
 	{
 		InitializeComponent();
@@ -65,5 +65,15 @@ public partial class SearchPage : ContentPage
         
 
 
+    }
+
+    private void OnShowFiltersClicked(object sender, EventArgs e)
+    {
+        FilterPopup.Show();
+    }
+
+    private void OnFilterSelected(object sender, string selectedFilter)
+    {
+        DisplayAlert("Wybrano!", $"Wybrano: {selectedFilter}", "OKEJ");
     }
 }

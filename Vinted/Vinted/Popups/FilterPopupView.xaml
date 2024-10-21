@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Vinted.Popups.FilterPopup"
+             x:Class="Vinted.Popups.FilterPopupView"
              IsVisible="False"
              BackgroundColor="Transparent">
     <ContentView.Content>
@@ -113,7 +113,7 @@
                                 FontAttributes="Bold"
                                 HorizontalOptions="EndAndExpand"
                                 VerticalOptions="EndAndExpand"
-                                Clicked="OnCloseClicked"/>
+                                Clicked="OnFilterClicked"/>
                     </VerticalStackLayout>
                 <!--</ScrollView>-->
                

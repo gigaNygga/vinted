@@ -96,3 +96,6 @@ C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-macc
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Vinted.AssemblyInfo.cs
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Vinted.csproj.CoreCompileInputs.cache
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\Vinted.sourcelink.json
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\f\OpenSans-Semibold.ttf

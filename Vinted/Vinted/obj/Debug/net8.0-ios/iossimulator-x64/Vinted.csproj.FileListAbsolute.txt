@@ -107,3 +107,11 @@ C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\Vinted.AssemblyInfo.cs
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\Vinted.csproj.CoreCompileInputs.cache
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\Vinted.sourcelink.json
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
+C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
