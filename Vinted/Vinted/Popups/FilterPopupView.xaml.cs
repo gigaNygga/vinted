@@ -4,7 +4,7 @@ using System.Xml;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Shapes;
 
-namespace Vinted
+namespace Vinted.Popups
 {
     public partial class FilterPopupView : ContentView
     {
