@@ -40,6 +40,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.ProductDetail
 build_metadata.AdditionalFiles.TargetPath = Pages\ProductDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProductDetailPage.xaml
 
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchPage.xaml
+
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SellItemPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SellItemPage.xaml

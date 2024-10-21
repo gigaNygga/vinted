@@ -30,9 +30,6 @@ public partial class SellItemPage : ContentPage
 			return;
 		}
 
-        /* wczytywanie zdjêæ i poprawne wyœwietlanie je po powrocie z innych zak³adek
-         * podczas edytowania og³oszenia. 
-         * ??TODO: przechowywaæ dane tymczasowo w bazie??*/
         try
         {
 			var photo = await MediaPicker.PickPhotoAsync();

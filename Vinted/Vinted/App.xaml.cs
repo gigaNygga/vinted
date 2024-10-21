@@ -1,8 +1,10 @@
-﻿namespace Vinted
+﻿using Vinted.Pages;
+
+namespace Vinted
 {
     public partial class App : Application
     {
-        public App()
+        public App(MainPage mainPage)
         {
             InitializeComponent();
 

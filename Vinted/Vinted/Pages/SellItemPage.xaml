@@ -20,27 +20,48 @@
                     HorizontalOptions="Center"/>
 
             <CollectionView x:Name="PhotosCollectionView"
-                            ItemsSource="{Binding Photos}"
-                            HeightRequest="150"
-                            HorizontalScrollBarVisibility="Always"
-                            ItemsLayout="HorizontalList">
+                ItemsSource="{Binding Photos}"
+                HeightRequest="150"
+                HorizontalScrollBarVisibility="Always"
+                ItemsLayout="HorizontalList">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame Padding="5"
-                               Margin="5"
-                               HasShadow="True"
-                               WidthRequest="120"
-                               HeightRequest="120">
+                   Margin="5"
+                   HasShadow="True"
+                   WidthRequest="120"
+                   HeightRequest="120">
                             <Image Source="{Binding}"
-                               Aspect="AspectFill"
-                               HeightRequest="120"
-                               WidthRequest="120"/>
+                   Aspect="AspectFill"
+                   HeightRequest="120"
+                   WidthRequest="120"/>
                         </Frame>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-            
-            
+
+            <Label Text="Tytuł ogłoszenia"
+                   FontSize="Micro"
+                   HorizontalOptions="Start"/>
+
+            <Entry x:Name="Name"/>
+
+            <Label Text="Opis"
+                   FontSize="Micro"
+                   HorizontalOptions="Start"/>
+
+            <Editor x:Name="Description"
+                    AutoSize="TextChanges"
+                    HeightRequest="150"/>
+
+            <Picker Title="Wybierz płeć"/> <!--ItemSource=binding z enuma-->
+
+            <Label Text="Cena"
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+
+            <Entry x:Name="Price"
+                   Keyboard="Numeric"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

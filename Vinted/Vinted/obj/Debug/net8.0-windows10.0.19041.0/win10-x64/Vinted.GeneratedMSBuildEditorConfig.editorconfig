@@ -11,6 +11,13 @@ build_property.RootNamespace = Vinted
 build_property.ProjectDir = C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
 
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -35,6 +42,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.ProductDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ProductDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProductDetailPage.xaml
+
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchPage.xaml
 
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SellItemPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

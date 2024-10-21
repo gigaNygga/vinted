@@ -2,7 +2,7 @@
 {
     public partial class MainPage : ContentPage
     {
-        public List<Product> Products { get; set; }
+        public List<Product>? Products { get; set; }
 
         public MainPage()
         {
@@ -45,9 +45,9 @@
 
     public class Product
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public double Price { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
     }
 
 }
