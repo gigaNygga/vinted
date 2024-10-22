@@ -51,4 +51,9 @@ public partial class SellItemPage : ContentPage
 			await DisplayAlert("B³¹d", "Nie uda³o siê dodaæ zdjêcia: " + ex.Message, "OK");
 		}
     }
+
+    private void AddNewProductClicked(object sender, EventArgs e)
+    {
+
+    }
 }

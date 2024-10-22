@@ -62,6 +62,10 @@
 
             <Entry x:Name="Price"
                    Keyboard="Numeric"/>
+
+            <Button Text="Wystaw przedmiot"
+                    HorizontalOptions="Center"
+                    Clicked="AddNewProductClicked"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
