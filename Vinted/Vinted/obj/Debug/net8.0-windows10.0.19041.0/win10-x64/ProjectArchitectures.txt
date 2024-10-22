@@ -1,1 +1,1 @@
-C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\Vinted.csproj;x64
+C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\Vinted.csproj;x64

@@ -20,8 +20,8 @@ namespace Vinted.Models
         [Column("price")]
         public decimal Price { get; set; }
 
-        [Column("images")]
-        public Image[]? Images { get; set; }
+        [Column("imagesPath")]
+        public string? ImagesPath { get; set; }
 
         [Column("gender")]
         public Gender Gender { get; set; }

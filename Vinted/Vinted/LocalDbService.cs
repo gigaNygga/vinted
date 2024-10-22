@@ -11,7 +11,7 @@ namespace Vinted
         public LocalDbService()
         {
             _connection = new SQLiteAsyncConnection(Path.Combine(FileSystem.AppDataDirectory, dbName));
-            _connection.CreateTableAsync<Product>();
+            _connection.CreateTableAsync<Product>().Wait();
         }
 
         public async Task<List<Product>> GetAllProducts()
@@ -34,9 +34,13 @@ namespace Vinted
             await _connection.UpdateAsync(product);
         }
 
-        public async Task DeleteProduct(Product product)
+        public async Task DeleteProduct(int id)
         {
-            await _connection.DeleteAsync(product);
+            var product = await GetProductById(id);
+            if (product != null)
+            {
+                await _connection.DeleteAsync(product);
+            }
         }
     }
 }

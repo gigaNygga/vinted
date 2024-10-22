@@ -1,11 +1,19 @@
-﻿namespace Vinted.Enums
+﻿using System.ComponentModel;
+
+namespace Vinted.Enums
 {
     public enum ProductCondition
     {
+        [Description("Nowy")]
         New,
-        LikeNew,
+
+        [Description("Bardzo dobry")]
         VeryGood,
+
+        [Description("Dobry")]
         Good,
+
+        [Description("Akceptowalny")]
         Acceptable
     }
 }

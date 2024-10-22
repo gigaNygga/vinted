@@ -54,7 +54,17 @@
                     AutoSize="TextChanges"
                     HeightRequest="150"/>
 
-            <Picker Title="Wybierz płeć"/> <!--ItemSource=binding z enuma-->
+            <Label Text="Płeć"
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+
+            <Picker ItemsSource="{Binding GenderOptions}"/>
+
+            <Label Text="Stan twojego przedmiotu"
+                FontSize="Micro"
+                HorizontalOptions="Start"/>
+
+            <Picker ItemsSource="{Binding ProductConditionOptions}"/>
 
             <Label Text="Cena"
                 FontSize="Micro"

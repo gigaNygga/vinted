@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using Vinted.Enums;
 
 namespace Vinted.Pages;
 
@@ -9,10 +10,13 @@ public partial class SellItemPage : ContentPage
     public string AddPhotosButtonText => Photos.Count > 0 ? $"Dodaj zdjêcia ({Photos.Count}/5)" : "Dodaj zdjêcia";
     public bool IsAddPhotosButtonEnabled => Photos.Count < 5;
 
+    public List<string> GenderOptions {  get; set; }
+    public List<string> ProductConditionOptions { get; set; }
+
     public SellItemPage()
 	{
 		InitializeComponent();
-		BindingContext = this;
+		
 
         Photos.CollectionChanged += (s, e) =>
         {
@@ -20,6 +24,11 @@ public partial class SellItemPage : ContentPage
             OnPropertyChanged(nameof(IsAddPhotosButtonEnabled));
 			OnPropertyChanged(nameof(Photos));
         };
+
+        GenderOptions = Enum.GetValues(typeof(Gender)).Cast<Gender>().Select(g => g.GetEnumDescription()).ToList();
+        ProductConditionOptions = Enum.GetValues(typeof(ProductCondition)).Cast<ProductCondition>().Select(pc => pc.GetEnumDescription()).ToList();
+
+        BindingContext = this;
     }
 
     private async void AddPhotosClicked(object sender, EventArgs e)

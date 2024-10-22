@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vinted")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+610f224fe36bb85362c15f101ef8aeaa3f4e1f36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vinted")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vinted")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

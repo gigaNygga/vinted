@@ -8,7 +8,7 @@ namespace Vinted
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = mainPage;
         }
     }
 }
