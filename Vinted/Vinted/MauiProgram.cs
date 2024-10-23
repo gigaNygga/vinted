@@ -17,6 +17,9 @@ namespace Vinted
 
             builder.Services.AddSingleton<LocalDbService>();
             builder.Services.AddTransient<MainPage>();
+            builder.Services.AddTransient<ProductDetailPage>();
+            builder.Services.AddTransient<SearchPage>();
+            builder.Services.AddTransient<SellItemPage>();
 #if DEBUG
             builder.Logging.AddDebug();
 #endif

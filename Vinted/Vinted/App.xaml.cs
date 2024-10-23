@@ -4,11 +4,15 @@ namespace Vinted
 {
     public partial class App : Application
     {
-        public App(MainPage mainPage)
+        public static LocalDbService dbService { get; private set; }
+
+        public App()
         {
             InitializeComponent();
 
-            MainPage = mainPage;
+            dbService = new LocalDbService();
+
+            MainPage = new AppShell();
         }
     }
 }

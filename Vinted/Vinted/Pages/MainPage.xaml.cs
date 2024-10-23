@@ -4,39 +4,17 @@ namespace Vinted.Pages
 {
     public partial class MainPage : ContentPage
     {
-
-        private readonly LocalDbService _dbService;
-
-        public List<Product>? Products { get; set; }
-
-        public MainPage(LocalDbService dbService)
-        {
-            InitializeComponent();
-            _dbService = dbService;
-
-            Task.Run(async () =>
+            public MainPage()
             {
-                //await LoadProducts();
-                //await _dbService.DeleteProduct(1);
+                InitializeComponent();
 
-                ListaProduktow.ItemsSource = await _dbService.GetAllProducts();
-            });
+                Task.Run(async () =>
+                {
+                    ListaProduktow.ItemsSource = await App.dbService.GetAllProducts();
+                });
 
-            BindingContext = this;
-        }
-
-        //private async Task LoadProducts()
-        //{
-        //    await _dbService.CreateProduct(new Models.Product
-        //    {
-        //        Name = "Produkt pierwszy",
-        //        Description = "Bardzo fajny produkt. Sentymentalny i tani!",
-        //        Condition = Enums.ProductCondition.Good,
-        //        Gender = Enums.Gender.Unisex,
-        //        Price = 120,
-        //        ImagesPath = ""
-        //    });
-        //}
+                BindingContext = this;
+            }
 
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)
         {
