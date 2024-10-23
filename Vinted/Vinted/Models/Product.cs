@@ -21,7 +21,7 @@ namespace Vinted.Models
         public decimal Price { get; set; }
 
         [Column("imagesPath")]
-        public string[]? ImagesPath { get; set; }
+        public string? ImagesPath { get; set; }
 
         [Column("gender")]
         public Gender Gender { get; set; }

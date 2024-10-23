@@ -24,11 +24,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-<<<<<<< HEAD
-_nugetassetstimestamp=638646843174874595
-=======
 _nugetassetsfilehash=b28c63fbdfb117bc4c018f099cc1edcc2f6a20915ce49943aa487f2d9e1c2b2a
->>>>>>> Fabian
 typemapkind=strings-asm
 androidmanifestplaceholders=
 projectfullpath=c:\users\5tp\documents\github\vinted\vinted\vinted\vinted.csproj
