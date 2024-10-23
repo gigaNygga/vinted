@@ -42,9 +42,10 @@ namespace Vinted.Pages
 #pragma warning disable CS8604 // Możliwy argument odwołania o wartości null.
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
-            if (userInput.Text != null || userInput.Text != "")
+            if (userInput.Text != null && userInput.Text != "")
+            {
                 await Navigation.PushAsync(new SearchPage(userInput.Text));
-
+            }
         }
 #pragma warning restore CS8604 // Możliwy argument odwołania o wartości null.
     }

@@ -7,7 +7,7 @@
     <ContentView.Content>
         <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <!-- Półprzezroczyste tło -->
-            <BoxView Color="Black" Opacity="0.3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+            <BoxView Color="Black" Opacity="0.3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
 
             <!-- Popup Frame -->
             <Frame BackgroundColor="White"
