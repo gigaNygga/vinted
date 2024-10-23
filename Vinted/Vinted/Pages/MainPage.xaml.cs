@@ -1,7 +1,4 @@
-﻿using Vinted.Popups;
-﻿using System.Xml.Linq;
-
-namespace Vinted.Pages
+﻿namespace Vinted.Pages
 {
     public partial class MainPage : ContentPage
     {
@@ -11,7 +8,7 @@ namespace Vinted.Pages
 
                 Task.Run(async () =>
                 {
-                    ListaProduktow.ItemsSource = await App.dbService.GetAllProducts();
+                    ListaProduktow.ItemsSource = await App.DbService.GetAllProducts();
                 });
 
                 BindingContext = this;
@@ -20,13 +17,12 @@ namespace Vinted.Pages
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)
         {
             var frame = sender as Frame;
-            var product = frame?.BindingContext as Product;
+            var product = frame?.BindingContext as Models.Product;
 
             if (product != null)
-                await Navigation.PushAsync(new ProductDetailPage(product));
+                await Navigation.PushAsync(new ProductDetailPage(product.Id));
         }
 
-#pragma warning disable CS8604 // Możliwy argument odwołania o wartości null.
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
             if (userInput.Text != null && userInput.Text != "")
@@ -34,7 +30,6 @@ namespace Vinted.Pages
                 await Navigation.PushAsync(new SearchPage(userInput.Text));
             }
         }
-#pragma warning restore CS8604 // Możliwy argument odwołania o wartości null.
     }
 
     public class Product

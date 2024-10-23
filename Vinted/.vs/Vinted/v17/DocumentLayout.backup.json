@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\productdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\productdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\productdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\productdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,34 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\productdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\productdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\productdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\productdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,20 +70,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "ProductDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\ProductDetailPage.xaml",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml",
+              "RelativeToolTip": "Vinted\\Pages\\ProductDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T11:35:11.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\ProductDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml.cs",
+              "RelativeToolTip": "Vinted\\Pages\\ProductDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:35:11.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T11:35:11.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:35:11.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Vinted\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Models\\Product.cs",
               "RelativeToolTip": "Vinted\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T11:42:24.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Vinted.csproj",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Vinted.csproj",
               "RelativeDocumentMoniker": "Vinted\\Vinted.csproj",
@@ -91,12 +143,11 @@
               "RelativeToolTip": "Vinted\\Vinted.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-23T11:35:28.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T11:35:28.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "FilterPopupView.xaml",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Popups\\FilterPopupView.xaml",
               "RelativeDocumentMoniker": "Vinted\\Popups\\FilterPopupView.xaml",
@@ -108,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "FilterPopupView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Popups\\FilterPopupView.xaml.cs",
               "RelativeDocumentMoniker": "Vinted\\Popups\\FilterPopupView.xaml.cs",
@@ -120,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\MauiProgram.cs",
               "RelativeDocumentMoniker": "Vinted\\MauiProgram.cs",
@@ -128,12 +179,11 @@
               "RelativeToolTip": "Vinted\\MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:35:11.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T11:35:11.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "SearchPage.xaml",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
               "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml",
@@ -141,36 +191,24 @@
               "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T11:35:11.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
+              "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T11:35:11.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SearchPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
-              "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml.cs",
-              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
-              "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:35:11.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:35:11.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\App.xaml",
               "RelativeDocumentMoniker": "Vinted\\App.xaml",
@@ -178,54 +216,19 @@
               "RelativeToolTip": "Vinted\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T11:35:11.174Z"
+              "WhenOpened": "2024-10-23T11:35:11.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\App.xaml.cs",
               "RelativeDocumentMoniker": "Vinted\\App.xaml.cs",
               "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\App.xaml.cs",
               "RelativeToolTip": "Vinted\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:35:11.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T11:35:11.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductDetailPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml.cs",
-              "RelativeDocumentMoniker": "Vinted\\Pages\\ProductDetailPage.xaml.cs",
-              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml.cs",
-              "RelativeToolTip": "Vinted\\Pages\\ProductDetailPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:35:11.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductDetailPage.xaml",
-              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml",
-              "RelativeDocumentMoniker": "Vinted\\Pages\\ProductDetailPage.xaml",
-              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml",
-              "RelativeToolTip": "Vinted\\Pages\\ProductDetailPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-23T11:35:11.174Z",
               "EditorCaption": ""
             }
