@@ -9,7 +9,6 @@
             Padding="10"
             Spacing="10">
 
-            <!--<Image Source="logo.png"/>-->
             <Label
                 Text="LOGO"
                 FontSize="Large"
@@ -32,7 +31,6 @@
 
             </HorizontalStackLayout>
             
-
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>

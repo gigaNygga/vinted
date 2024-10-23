@@ -1,6 +1,6 @@
-﻿using System;
+﻿//using System;
 
-public static class AppState
-{
-	public static ObservableCollection<ImageSource> Photos { get; } = new ObservableCollection<ImageSource>();
-}
+//public static class AppState
+//{
+//	public static ObservableCollection<ImageSource> Photos { get; } = new ObservableCollection<ImageSource>();
+//}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\anim\nav_default_enter_anim.xml
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\anim\nav_default_exit_anim.xml
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\anim\nav_default_pop_enter_anim.xml
@@ -10,3 +11,12 @@ C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-andr
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\values\attr.xml
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\values\colors.xml
 C:\Users\Kondzix 5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\values\styles.xml
+=======
+﻿C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\anim\enterfromleft.xml
+C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\anim\enterfromright.xml
+C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\anim\exittoleft.xml
+C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\anim\exittoright.xml
+C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\layout\flyoutcontent.xml
+C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\layout\shellcontent.xml
+C:\Users\kuczk\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\lp\200\jl\res\values\strings.xml
+>>>>>>> Fabian

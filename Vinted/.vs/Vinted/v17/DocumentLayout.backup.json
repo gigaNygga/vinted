@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,6 +46,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\productdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\productdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\sellitempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\sellitempage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\sellitempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\sellitempage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\localdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\localdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\5tp\\documents\\github\\vinted\\vinted\\vinted\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Fabian
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +87,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 10,
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> Fabian
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,6 +103,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\App.xaml.cs",
@@ -126,10 +164,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T20:07:47.503Z",
+=======
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Vinted\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\App.xaml.cs",
+              "RelativeToolTip": "Vinted\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T07:26:16.708Z",
+>>>>>>> Fabian
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "SearchPage.xaml",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
@@ -139,11 +189,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-14T15:41:04.773Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "SellItemPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SellItemPage.xaml.cs",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\SellItemPage.xaml.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SellItemPage.xaml.cs",
+              "RelativeToolTip": "Vinted\\Pages\\SellItemPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:02:04.528Z",
+>>>>>>> Fabian
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "SearchPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
               "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml.cs",
@@ -177,10 +239,47 @@
               "ViewState": "AgIAABEAAAAAAAAAAAAwwCwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T07:11:34.714Z",
+=======
+              "Title": "SellItemPage.xaml",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SellItemPage.xaml",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\SellItemPage.xaml",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SellItemPage.xaml",
+              "RelativeToolTip": "Vinted\\Pages\\SellItemPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T11:01:59.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T07:12:52.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T07:22:55.802Z",
+>>>>>>> Fabian
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 10,
               "Title": "ProductDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\ProductDetailPage.xaml.cs",
@@ -202,6 +301,44 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-09T07:09:47.248Z"
+=======
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Vinted\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Models\\Product.cs",
+              "RelativeToolTip": "Vinted\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:10:52.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocalDbService.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\LocalDbService.cs",
+              "RelativeDocumentMoniker": "Vinted\\LocalDbService.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\LocalDbService.cs",
+              "RelativeToolTip": "Vinted\\LocalDbService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:06:04.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Vinted\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\MauiProgram.cs",
+              "RelativeToolTip": "Vinted\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T10:03:54.889Z",
+              "EditorCaption": ""
+>>>>>>> Fabian
             }
           ]
         }

@@ -1,34 +1,21 @@
 ﻿using Vinted.Popups;
+﻿using System.Xml.Linq;
 
 namespace Vinted.Pages
 {
     public partial class MainPage : ContentPage
     {
-        public List<Product> Products { get; set; }
-
-        public MainPage()
-        {
-            InitializeComponent();
-
-            LoadProducts();
-            BindingContext = this;
-        }
-
-        private void LoadProducts()
-        {
-            Products = new List<Product>
+            public MainPage()
             {
-                new Product { Name = "aaab", Price = 59.99, Image = "produkt1.jpg" },
-                new Product { Name = "Produkt 2", Price = 89.99, Image = "produkt2.jpg" },
-                new Product { Name = "Produkt 3", Price = 45.50, Image = "produkt3.jpg" },
-                new Product { Name = "Produkt 4", Price = 120.00, Image = "produkt4.jpg" },
-                new Product { Name = "Produkt 5", Price = 11.11, Image = "produkt5.jpg" }
-            };
+                InitializeComponent();
 
-            
+                Task.Run(async () =>
+                {
+                    ListaProduktow.ItemsSource = await App.dbService.GetAllProducts();
+                });
 
-            ListaProduktow.ItemsSource = Products;
-        }
+                BindingContext = this;
+            }
 
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)
         {
@@ -52,9 +39,9 @@ namespace Vinted.Pages
 
     public class Product
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public double Price { get; set; }
-        public string Image { get; set; }
+        public string? Image { get; set; }
     }
 
 }
