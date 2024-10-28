@@ -38,10 +38,10 @@ public partial class SearchPage : ContentPage
     private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
     {
         var frame = sender as Frame;
-        var product = frame?.BindingContext as Product;
+        var product = frame?.BindingContext as Models.Product;
 
         if (product != null)
-            await Navigation.PushAsync(new ProductDetailPage(product));
+            await Navigation.PushAsync(new ProductDetailPage(product.Id));
     }
 
     bool rosnaco = true;

@@ -5,7 +5,7 @@ namespace Vinted.Enums
     public enum Gender
     {
         [Description("Mężczyzna")]
-        Men,
+        Man,
 
         [Description("Kobieta")]
         Woman,

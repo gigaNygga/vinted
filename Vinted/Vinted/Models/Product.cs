@@ -28,5 +28,15 @@ namespace Vinted.Models
 
         [Column("condition")]
         public ProductCondition Condition { get; set; }
+
+        public void SetImagePaths(List<string> paths)
+        {
+            ImagesPath = string.Join(",", paths);
+        }
+
+        public List<string> GetImagePaths()
+        {
+            return ImagesPath?.Split(',').ToList() ?? new List<string>();
+        }
     }
 }
