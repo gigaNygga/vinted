@@ -28,5 +28,8 @@ namespace Vinted.Models
 
         [Column("condition")]
         public ProductCondition Condition { get; set; }
+
+        [Column("previousPrice")]
+        public decimal? PreviousPrice { get; set; }
     }
 }
