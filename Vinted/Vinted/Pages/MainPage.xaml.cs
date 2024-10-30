@@ -8,11 +8,23 @@
 
                 Task.Run(async () =>
                 {
-                    ListaProduktow.ItemsSource = await App.DbService.GetAllProducts();
+                    await LoadProducts();
                 });
 
                 BindingContext = this;
             }
+
+        private async Task LoadProducts()
+        {
+            var products = await App.DbService.GetAllProducts();
+
+            ListaProduktow.ItemsSource = products.Select(p => new
+            {
+                p.Name,
+                p.Price,
+                Image = p.FirstImagePath,
+            }).ToList();
+        }
 
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)
         {

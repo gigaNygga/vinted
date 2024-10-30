@@ -4,13 +4,13 @@ namespace Vinted.Pages;
 
 public partial class ProductDetailPage : ContentPage
 {
-    private readonly int _id;
-    public ProductDetailPage(int id)
+    private readonly int id;
+    public ProductDetailPage(int _id)
     {
         InitializeComponent();
 
-        _id = id;
-        LoadProductDetails(_id);
+        id = _id;
+        LoadProductDetails(id);
     }
 
     Models.Product product;
@@ -30,5 +30,10 @@ public partial class ProductDetailPage : ContentPage
     private async void BackButtonClicked(object sender, EventArgs e)
     {
         await Navigation.PopAsync();
+    }
+
+    private async void Usun(object sender, EventArgs e)
+    {
+        await App.DbService.DeleteProduct(id);
     }
 }

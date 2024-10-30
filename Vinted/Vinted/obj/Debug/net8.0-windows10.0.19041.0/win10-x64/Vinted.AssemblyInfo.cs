@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vinted")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a41eec989aeedf7f8bb9baa65a6848a245051fc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ba1766028df4d2e4243764e0c4e8fcd3b2998d4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vinted")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vinted")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

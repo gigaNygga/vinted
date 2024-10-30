@@ -28,10 +28,10 @@ namespace Vinted.Models
 
         [Column("condition")]
         public ProductCondition Condition { get; set; }
-
-        public void SetImagePaths(List<string> paths)
+        public string? FirstImagePath => ImagesPath?.Split(',').FirstOrDefault();
+        public string SetImagePaths(List<string> paths)
         {
-            ImagesPath = string.Join(",", paths);
+            return ImagesPath = string.Join(",", paths);
         }
 
         public List<string> GetImagePaths()
