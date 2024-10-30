@@ -12,6 +12,7 @@ namespace Vinted
         {
             _connection = new SQLiteAsyncConnection(Path.Combine(FileSystem.AppDataDirectory, dbName));
             _connection.CreateTableAsync<Product>().Wait();
+
         }
 
         public async Task<List<Product>> GetAllProducts()

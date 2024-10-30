@@ -21,10 +21,10 @@ namespace Vinted.Pages
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)
         {
             var frame = sender as Frame;
-            var product = frame?.BindingContext as Product;
+            //var product = frame?.BindingContext as Product;
 
-            if (product != null)
-                await Navigation.PushAsync(new ProductDetailPage(product));
+            //if (product != null)
+                //await Navigation.PushAsync(new ProductDetailPage(product));
         }
 
 #pragma warning disable CS8604 // Możliwy argument odwołania o wartości null.
@@ -38,11 +38,11 @@ namespace Vinted.Pages
 #pragma warning restore CS8604 // Możliwy argument odwołania o wartości null.
     }
 
-    public class Product
-    {
-        public string? Name { get; set; }
-        public double Price { get; set; }
-        public string? Image { get; set; }
-    }
+    //public class Product
+    //{
+    //    public string? Name { get; set; }
+    //    public double Price { get; set; }
+    //    public string? Image { get; set; }
+    //}
 
 }

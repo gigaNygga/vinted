@@ -9,9 +9,13 @@ namespace Vinted.Popups
     public partial class FilterPopupView : ContentView
     {
         public event EventHandler<string>? FilterSelected;
+        private string sexButton = "";
         public FilterPopupView()
         {
             InitializeComponent();
+            MezczyzniButton.AutomationId = "M";
+            KobietyButton.AutomationId = "K";
+            UnisexButton.AutomationId= "U";
         }
 
         private void OnFilterClicked(object sender, EventArgs e)
@@ -19,7 +23,7 @@ namespace Vinted.Popups
             if (sender is Button button)
             {
                 // Wys�anie wybranego filtru
-                FilterSelected?.Invoke(this, button.Text);
+                FilterSelected?.Invoke(this, sexButton);
                 Hide();
             }
         }
@@ -56,6 +60,7 @@ namespace Vinted.Popups
             {
                 clickedButton.BackgroundColor = Colors.HotPink;
                 clickedButton.TextColor = Colors.White;
+                sexButton = clickedButton.AutomationId;
             }
         }
     }

@@ -1,38 +1,51 @@
-﻿namespace Vinted.Pages;
+﻿using Vinted.Models;
+
+namespace Vinted.Pages;
 
 public partial class SearchPage : ContentPage
 {
 	private string tekst = "";
-	public SearchPage(string tekst)
+    public List<Product> aktualneProdukty = new List<Product>();
+
+    public SearchPage(string tekst)
 	{
 		InitializeComponent();
 		Title = "Wyszukiwanie: '" + tekst + "'";
         this.tekst = tekst;
+
+        Task.Run(async () =>
+        {
+            //await App.dbService.CreateProduct( 
+            //    new Product
+            //    { 
+            //        Name = "aso",
+            //        Description = "kup se aso człowieku", 
+            //        Price = 167, 
+            //        Gender = Enums.Gender.Unisex, 
+            //        Condition = Enums.ProductCondition.Acceptable 
+            //    });
+
+            aktualneProdukty = await App.dbService.GetAllProducts();
+        }).Wait();
+
         WyszukajProdukty();
-	}
-    public List<Product> aktualneProdukty = new List<Product>();
+
+    }
     public void WyszukajProdukty()
     {
-        List<Product> produkty = new List<Product>
-            {
-                new Product { Name = "kurtka zimowa", Price = 59.99, Image = "produkt1.jpg" },
-                new Product { Name = "kurtka wiosenna", Price = 89.99, Image = "produkt2.jpg" },
-                new Product { Name = "narzuta wiosenna", Price = 45.50, Image = "produkt3.jpg" },
-                new Product { Name = "spodenki", Price = 120.00, Image = "produkt4.jpg" },
-                new Product { Name = "skarpety", Price = 11.11, Image = "produkt5.jpg" }
-            };
 
         List<Product> produktyPrzeszukane = new List<Product>();
 
-        for(int i = 0; i < produkty.Count(); i++)
+        for(int i = 0; i < aktualneProdukty.Count(); i++)
         {
-            if (produkty[i].Name.Contains(tekst))
+            if (aktualneProdukty[i].Name.Contains(tekst))
             {
-                produktyPrzeszukane.Add(produkty[i]);
+                produktyPrzeszukane.Add(aktualneProdukty[i]);
+                
             }
         }
         aktualneProdukty = produktyPrzeszukane;
-        ListaProduktow.ItemsSource = produktyPrzeszukane;
+        ListaProduktow.ItemsSource = aktualneProdukty;
     }
 
     private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
@@ -40,8 +53,8 @@ public partial class SearchPage : ContentPage
         var frame = sender as Frame;
         var product = frame?.BindingContext as Product;
 
-        if (product != null)
-            await Navigation.PushAsync(new ProductDetailPage(product));
+       // if (product != null)
+            //await Navigation.PushAsync(new ProductDetailPage(product));
     }
 
     bool rosnaco = true;
@@ -62,8 +75,6 @@ public partial class SearchPage : ContentPage
         rosnaco = !rosnaco;
         aktualneProdukty = PosortowaneProdukty;
         ListaProduktow.ItemsSource = aktualneProdukty;
-        
-
 
     }
 

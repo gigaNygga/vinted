@@ -1,4 +1,5 @@
 namespace Vinted.Pages;
+using Vinted.Models;
 
 public partial class ProductDetailPage : ContentPage
 {
