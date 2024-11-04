@@ -47,7 +47,7 @@
             <Button Text="Powrót"
                 Clicked="BackButtonClicked"/>
 
-            <Button Text="TEGO TUTAJ NIE BĘDZIE"
+            <Button Text="Usun"
                 Clicked="Usun"/>
         </VerticalStackLayout>
     </ScrollView>

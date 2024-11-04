@@ -78,5 +78,10 @@ public partial class SellItemPage : ContentPage
         newProduct.SetImagePaths(ImagePaths);
 
         await App.DbService.CreateProduct(newProduct);
+
+        ImagePaths.Clear();
+        Photos.Clear();
+        await Navigation.PushAsync(new SellItemPage());
+        Navigation.RemovePage(this);
     }
 }

@@ -15,7 +15,7 @@
 
         <ShellContent Title="Szafka"
                 Icon="navbar/clotheshanger.png"
-                ContentTemplate="{DataTemplate pages:MainPage}"/>
+                ContentTemplate="{DataTemplate pages:WardrobePage}"/>
 
         <ShellContent Title="Sprzedaj"
                 Icon="navbar/add.png"

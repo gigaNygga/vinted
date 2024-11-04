@@ -1,4 +1,4 @@
-using Vinted.Models;
+using Vinted.Enums;
 
 namespace Vinted.Pages;
 
@@ -19,12 +19,24 @@ public partial class ProductDetailPage : ContentPage
         product = await App.DbService.GetProductById(productId);
 
         if (product != null)
-            BindingContext = product;
-        else
-            await Navigation.PopAsync();
+        {
+            BindingContext = new
+            {
+                product.Name,
+                product.Price,
+                product.Description,
+                Gender = product.Gender.GetEnumDescription(),
+                Condition = product.Condition.GetEnumDescription()
+            };
 
-        var imagePaths = product.GetImagePaths();
-        PhotosCollectionView.ItemsSource = imagePaths.Select(path => ImageSource.FromFile(path)).ToList();
+            var imagePaths = product.GetImagePaths();
+            PhotosCollectionView.ItemsSource = imagePaths.Select(path => ImageSource.FromFile(path)).ToList();
+        }
+        else
+        {
+            await DisplayAlert("Produktu ju¿ nie ma!", "Ktoœ zd¹¿y³ kupiæ lub usun¹æ produkt :(", "OK, wracam szukaæ czegoœ innego");
+            await Navigation.PopAsync();
+        }
     }
 
     private async void BackButtonClicked(object sender, EventArgs e)

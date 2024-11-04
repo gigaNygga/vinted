@@ -1,29 +1,47 @@
-﻿namespace Vinted.Pages
+﻿using System.ComponentModel;
+using System.Windows.Input;
+
+namespace Vinted.Pages
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : ContentPage, INotifyPropertyChanged
     {
-            public MainPage()
+        private bool isRefreshing;
+        public bool IsRefreshing
+        {
+            get => isRefreshing;
+            set
             {
-                InitializeComponent();
-
-                Task.Run(async () =>
+                if (isRefreshing != value)
                 {
-                    await LoadProducts();
-                });
-
-                BindingContext = this;
+                    isRefreshing = value;
+                    OnPropertyChanged(nameof(IsRefreshing));
+                }
             }
+        }
+
+        public ICommand RefreshCommand { get; }
+        public MainPage()
+        {
+            InitializeComponent();
+
+            RefreshCommand = new Command(async () => await RefreshProducts());
+            BindingContext = this;
+
+            Task.Run(async () => await LoadProducts());
+        }
+
+        private async Task RefreshProducts()
+        {
+            IsRefreshing = true;
+            await LoadProducts();
+            IsRefreshing = false;
+        }
 
         private async Task LoadProducts()
         {
             var products = await App.DbService.GetAllProducts();
 
-            ListaProduktow.ItemsSource = products.Select(p => new
-            {
-                p.Name,
-                p.Price,
-                Image = p.FirstImagePath,
-            }).ToList();
+            ListaProduktow.ItemsSource = products;
         }
 
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)

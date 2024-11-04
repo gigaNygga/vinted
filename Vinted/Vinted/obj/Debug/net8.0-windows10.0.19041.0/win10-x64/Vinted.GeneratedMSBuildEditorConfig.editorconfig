@@ -55,6 +55,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SellItemPage.
 build_metadata.AdditionalFiles.TargetPath = Pages\SellItemPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SellItemPage.xaml
 
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/WardrobePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.WardrobePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WardrobePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WardrobePage.xaml
+
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Popups/FilterPopupView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Popups.FilterPopupView.xaml

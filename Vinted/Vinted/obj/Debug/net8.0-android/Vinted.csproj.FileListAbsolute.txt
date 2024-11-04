@@ -26,6 +26,12 @@ C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\maui
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\mauifont.stamp
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
+C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\add.png
+C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\clotheshanger.png
+C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
+C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\envelope.png
+C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\search.png
+C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\user.png
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxxhdpi\appicon.png
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\mipmap-xxhdpi\appicon.png
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\mipmap-xhdpi\appicon.png
@@ -1134,9 +1140,3 @@ C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\stam
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\add.png
-C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\clotheshanger.png
-C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\envelope.png
-C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
-C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\search.png
-C:\Users\5TP\Documents\GitHub\vinted\Vinted\Vinted\obj\Debug\net8.0-android\resizetizer\r\drawable\user.png

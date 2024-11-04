@@ -28,7 +28,7 @@ namespace Vinted.Models
 
         [Column("condition")]
         public ProductCondition Condition { get; set; }
-        public string? FirstImagePath => ImagesPath?.Split(',').FirstOrDefault();
+        public string? FirstImage => ImagesPath?.Split(',').FirstOrDefault();
         public string SetImagePaths(List<string> paths)
         {
             return ImagesPath = string.Join(",", paths);
