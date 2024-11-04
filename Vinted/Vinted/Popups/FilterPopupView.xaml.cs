@@ -3,13 +3,16 @@ using System.Drawing;
 using System.Xml;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Shapes;
+using Vinted.Enums;
+using Vinted.Models;
 
 namespace Vinted.Popups
 {
     public partial class FilterPopupView : ContentView
     {
-        public event EventHandler<string>? FilterSelected;
+        public event EventHandler<List<Product>>? FilterSelected;
         private string sexButton = "";
+        private List<Product> products = new List<Product>();
         public FilterPopupView()
         {
             InitializeComponent();
@@ -22,8 +25,24 @@ namespace Vinted.Popups
         {
             if (sender is Button button)
             {
+                decimal? minPrice = decimal.TryParse(cenaOD.Text, out var tempMin) ? tempMin : (decimal?)null;
+                decimal? maxPrice = decimal.TryParse(cenaDO.Text, out var tempMax) ? tempMax : (decimal?)null;
+
+                var filteredProducts = products.AsQueryable()
+                    .Where(p =>
+                        ((sexButton == "M" && p.Gender == Gender.Men) || (sexButton == "K" && p.Gender == Gender.Woman) || (sexButton == "U" && p.Gender == Gender.Unisex)) 
+                        &&
+                        p.Price >= minPrice.Value &&
+                        p.Price <= maxPrice.Value &&
+                        nowy.IsChecked && p.Condition == ProductCondition.New &&
+                        bdb.IsChecked && p.Condition == ProductCondition.VeryGood &&
+                        db.IsChecked && p.Condition == ProductCondition.Good &&
+                        git.IsChecked && p.Condition == ProductCondition.Acceptable &&
+                        niepelny.IsChecked && p.Condition == ProductCondition.Damaged
+                    )
+                    .ToList();
                 // Wys�anie wybranego filtru
-                FilterSelected?.Invoke(this, sexButton);
+                FilterSelected?.Invoke(this, filteredProducts);
                 Hide();
             }
         }
@@ -33,9 +52,11 @@ namespace Vinted.Popups
             Hide();
         }
 
-        public void Show()
+        public void Show(List<Product> produkty)
         {
             this.IsVisible = true;
+            products = produkty;
+
         }
 
         public void Hide()

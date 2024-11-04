@@ -14,6 +14,9 @@ namespace Vinted.Enums
         Good,
 
         [Description("Akceptowalny")]
-        Acceptable
+        Acceptable,
+
+        [Description("Nie w pełni sprawny")]
+        Damaged
     }
 }

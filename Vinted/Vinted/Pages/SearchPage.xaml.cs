@@ -6,6 +6,7 @@ public partial class SearchPage : ContentPage
 {
 	private string tekst = "";
     public List<Product> aktualneProdukty = new List<Product>();
+    private List<Product> produktyPrzeszukane = new List<Product>();
 
     public SearchPage(string tekst)
 	{
@@ -18,10 +19,10 @@ public partial class SearchPage : ContentPage
             //await App.dbService.CreateProduct( 
             //    new Product
             //    { 
-            //        Name = "aso",
+            //        Name = "weobgbwguoa",
             //        Description = "kup se aso człowieku", 
-            //        Price = 167, 
-            //        Gender = Enums.Gender.Unisex, 
+            //        Price = 1680, 
+            //        Gender = Enums.Gender.Men, 
             //        Condition = Enums.ProductCondition.Acceptable 
             //    });
 
@@ -34,7 +35,7 @@ public partial class SearchPage : ContentPage
     public void WyszukajProdukty()
     {
 
-        List<Product> produktyPrzeszukane = new List<Product>();
+        
 
         for(int i = 0; i < aktualneProdukty.Count(); i++)
         {
@@ -80,11 +81,14 @@ public partial class SearchPage : ContentPage
 
     private void OnShowFiltersClicked(object sender, EventArgs e)
     {
-        FilterPopup.Show();
+        FilterPopup.Show(produktyPrzeszukane);
     }
 
-    private void OnFilterSelected(object sender, string selectedFilter)
+    private void OnFilterSelected(object sender, List<Product> pf)
     {
-        DisplayAlert("Wybrano!", $"Wybrano: {selectedFilter}", "OKEJ");
+        //DisplayAlert("Wybrano!", $"Wybrano: {gender} , cena {low}-{high}, {a},{b},{c},{d},{e}", "OKEJ");
+        
+        aktualneProdukty = pf;
+        ListaProduktow.ItemsSource = aktualneProdukty;
     }
 }
