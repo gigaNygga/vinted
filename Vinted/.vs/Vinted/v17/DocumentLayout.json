@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\popups\\filterpopupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\pages\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\popups\\filterpopupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\popups\\filterpopupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\popups\\filterpopupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|solutionrelative:vinted\\popups\\filterpopupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B8195F5-E4B0-4744-95A9-FAADC6822F1E}|Vinted\\Vinted.csproj|c:\\users\\kondzix 5tp\\documents\\github\\vinted\\vinted\\vinted\\localdbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductCondition.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Enums\\ProductCondition.cs",
               "RelativeDocumentMoniker": "Vinted\\Enums\\ProductCondition.cs",
@@ -82,12 +82,11 @@
               "RelativeToolTip": "Vinted\\Enums\\ProductCondition.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T11:30:49.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T11:30:49.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Enums\\Gender.cs",
               "RelativeDocumentMoniker": "Vinted\\Enums\\Gender.cs",
@@ -95,12 +94,11 @@
               "RelativeToolTip": "Vinted\\Enums\\Gender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T11:30:48.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T11:30:48.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Vinted\\Models\\Product.cs",
@@ -108,8 +106,7 @@
               "RelativeToolTip": "Vinted\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T11:19:14.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T11:19:14.668Z"
             },
             {
               "$type": "Document",
@@ -125,15 +122,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "FilterPopupView.xaml",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Popups\\FilterPopupView.xaml",
               "RelativeDocumentMoniker": "Vinted\\Popups\\FilterPopupView.xaml",
               "ToolTip": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Popups\\FilterPopupView.xaml",
               "RelativeToolTip": "Vinted\\Popups\\FilterPopupView.xaml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAuwEUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T11:35:11.143Z"
+              "WhenOpened": "2024-10-23T11:35:11.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -143,40 +141,40 @@
               "RelativeDocumentMoniker": "Vinted\\Popups\\FilterPopupView.xaml.cs",
               "ToolTip": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Popups\\FilterPopupView.xaml.cs",
               "RelativeToolTip": "Vinted\\Popups\\FilterPopupView.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADgvyMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:35:11.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SearchPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
-              "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml",
-              "ToolTip": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
-              "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-23T11:35:11.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml",
+              "ToolTip": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
+              "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-23T11:35:11.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SearchPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
               "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml.cs",
               "ToolTip": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
               "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwDwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T11:35:11.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Kondzix 5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Vinted\\Pages\\MainPage.xaml.cs",
@@ -184,8 +182,7 @@
               "RelativeToolTip": "Vinted\\Pages\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T11:35:11.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T11:35:11.159Z"
             },
             {
               "$type": "Document",

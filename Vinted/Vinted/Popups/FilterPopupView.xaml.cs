@@ -12,7 +12,7 @@ namespace Vinted.Popups
     {
         public event EventHandler<List<Product>>? FilterSelected;
         private string sexButton = "";
-        private List<Product> products = new List<Product>();
+        private List<Product> products = [];
         public FilterPopupView()
         {
             InitializeComponent();
@@ -28,17 +28,17 @@ namespace Vinted.Popups
                 decimal? minPrice = decimal.TryParse(cenaOD.Text, out var tempMin) ? tempMin : (decimal?)null;
                 decimal? maxPrice = decimal.TryParse(cenaDO.Text, out var tempMax) ? tempMax : (decimal?)null;
 
-                var filteredProducts = products.AsQueryable()
+                var filteredProducts = products
                     .Where(p =>
                         ((sexButton == "M" && p.Gender == Gender.Men) || (sexButton == "K" && p.Gender == Gender.Woman) || (sexButton == "U" && p.Gender == Gender.Unisex)) 
-                        &&
-                        p.Price >= minPrice.Value &&
-                        p.Price <= maxPrice.Value &&
-                        nowy.IsChecked && p.Condition == ProductCondition.New &&
-                        bdb.IsChecked && p.Condition == ProductCondition.VeryGood &&
-                        db.IsChecked && p.Condition == ProductCondition.Good &&
-                        git.IsChecked && p.Condition == ProductCondition.Acceptable &&
-                        niepelny.IsChecked && p.Condition == ProductCondition.Damaged
+                    //    &&
+                    //    p.Price >= minPrice.Value &&
+                    //    p.Price <= maxPrice.Value &&
+                    //    (nowy.IsChecked && p.Condition == ProductCondition.New) &&
+                    //    (bdb.IsChecked && p.Condition == ProductCondition.VeryGood) &&
+                    //    (db.IsChecked && p.Condition == ProductCondition.Good) &&
+                    //    (git.IsChecked && p.Condition == ProductCondition.Acceptable) &&
+                    //    (niepelny.IsChecked && p.Condition == ProductCondition.Damaged)
                     )
                     .ToList();
                 // Wys�anie wybranego filtru
