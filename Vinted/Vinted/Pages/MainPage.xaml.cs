@@ -11,7 +11,7 @@ namespace Vinted.Pages
 
                 Task.Run(async () =>
                 {
-                    //await App.dbService.CreateProduct( new Models.Product { Name = "osiosi", Description = "aaaa", Price = 168, Gender = Enums.Gender.Men, Condition = Enums.ProductCondition.VeryGood });
+                    await App.dbService.CreateProduct( new Models.Product { Name = "asasina", Description = "aaaa", Price = 170, Gender = Enums.Gender.Woman, Condition = Enums.ProductCondition.Damaged });
                     ListaProduktow.ItemsSource = await App.dbService.GetAllProducts();
                 });
 
