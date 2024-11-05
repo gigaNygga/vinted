@@ -28,11 +28,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = Vinted.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.login.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\login.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\login.xaml
+
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/Messages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.Messages.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Messages.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Messages.xaml
 
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/ProductDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -40,6 +52,27 @@ build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.ProductDetail
 build_metadata.AdditionalFiles.TargetPath = Pages\ProductDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProductDetailPage.xaml
 
+<<<<<<< Updated upstream
+=======
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SellItemPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SellItemPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SellItemPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SellItemPage.xaml
+
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\settings.xaml
+
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/Wardrobe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.Wardrobe.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Wardrobe.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Wardrobe.xaml
+
+>>>>>>> Stashed changes
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Resources.Styles.Colors.xaml

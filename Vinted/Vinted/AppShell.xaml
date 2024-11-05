@@ -22,10 +22,18 @@
 
         <ShellContent Title="Wiadomości"
                 Icon="envelope.png"
+<<<<<<< Updated upstream
                 ContentTemplate="{DataTemplate local:MainPage}"/>
 
         <ShellContent Title="Profil"
                 Icon="user.png"
                 ContentTemplate="{DataTemplate local:MainPage}"/>
+=======
+                ContentTemplate="{DataTemplate pages:Messages}"/>
+
+        <ShellContent Title="Profil"
+                Icon="user.png"
+                ContentTemplate="{DataTemplate pages:login}"/>
+>>>>>>> Stashed changes
     </TabBar>
 </Shell>

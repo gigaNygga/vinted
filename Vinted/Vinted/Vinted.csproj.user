@@ -6,9 +6,27 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Pages\login.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Messages.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\ProductDetailPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+<<<<<<< Updated upstream
+=======
+    <MauiXaml Update="Pages\SellItemPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\settings.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\Wardrobe.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Update="App.xaml">
