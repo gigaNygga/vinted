@@ -6,7 +6,10 @@
     xmlns:local="clr-namespace:Vinted"
     xmlns:pages="clr-namespace:Vinted.Pages"
     Shell.FlyoutBehavior="Disabled"
-    Title="Vinted">
+    Title="Vinted"
+    Shell.TabBarForegroundColor="Black"
+    Shell.TabBarTitleColor="Black"
+    Shell.TabBarUnselectedColor="Grey">
 
     <TabBar>
         <ShellContent Title="Główna"

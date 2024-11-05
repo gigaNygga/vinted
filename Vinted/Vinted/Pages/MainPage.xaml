@@ -9,28 +9,25 @@
                  Command="{Binding RefreshCommand}">
         <ScrollView>
             <VerticalStackLayout
-        Padding="10"
-        Spacing="10">
+                Padding="10"
+                Spacing="10">
 
                 <Label
-            Text="LOGO"
-            FontSize="Large"
-            HorizontalOptions="Center"/>
+                    Text="LOGO"
+                    FontSize="Large"
+                    HorizontalOptions="Center"/>
 
                 <HorizontalStackLayout>
-                    <Entry
-                PlaceholderColor="DimGrey"
-                Placeholder="Wyszukaj przedmioty..."
-                WidthRequest="340"
-                x:Name="userInput"
-                />
+                    <Entry PlaceholderColor="DimGrey"
+                        Placeholder="Wyszukaj przedmioty..."
+                        
+                        WidthRequest="340"
+                        x:Name="userInput"/>
 
-                    <ImageButton
-                WidthRequest="20"
-                HeightRequest="20"
-                Source="Images/search.png"
-                Clicked="ImageButton_Clicked"
-                />
+                    <ImageButton WidthRequest="20"
+                        HeightRequest="20"
+                        Source="Images/search.png"
+                        Clicked="ImageButton_Clicked"/>
 
                 </HorizontalStackLayout>
 
@@ -41,28 +38,28 @@
                     </Grid.ColumnDefinitions>
 
                     <Grid Grid.Column="0"
-                Margin="5">
+                        Margin="5">
                         <Button Text="Promocje!"
-                    FontSize="25"
-                    FontAttributes="Bold"
-                    TextColor="Black"
-                    Padding="10,35"
-                    Background="#f5ee9e"/>
+                            FontSize="25"
+                            FontAttributes="Bold"
+                            TextColor="Black"
+                            Padding="10,35"
+                            Background="#f5ee9e"/>
                     </Grid>
 
                     <Grid Grid.Column="1"
-                Margin="5">
+                        Margin="5">
 
                         <Button Text="HOT DEALS"
-                    FontSize="25"
-                    FontAttributes="Bold"
-                    Padding="10,35"
-                    Background="#2d728f"/>
+                            FontSize="25"
+                            FontAttributes="Bold"
+                            Padding="10,35"
+                            Background="#2d728f"/>
                     </Grid>
                 </Grid>
 
                 <Label Text="Wybierz coś dla siebie!"
-            FontSize="Title"/>
+                    FontSize="Title"/>
 
                 <CollectionView x:Name="ListaProduktow">
                     <CollectionView.ItemsLayout>
