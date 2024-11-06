@@ -11,7 +11,7 @@ namespace Vinted.Popups
     public partial class FilterPopupView : ContentView
     {
         public event EventHandler<List<Product>>? FilterSelected;
-        private string sexButton = "";
+        private string sexButton = "KMU";
         private List<Product> products = [];
         private int minPrice, maxPrice;
         public FilterPopupView()
@@ -38,7 +38,7 @@ namespace Vinted.Popups
 
                 var filteredProducts = products
                     .Where(p =>
-                            ((sexButton == "M" && p.Gender == Gender.Men) || (sexButton == "K" && p.Gender == Gender.Woman) || (sexButton == "U" && p.Gender == Gender.Unisex)) 
+                            ((sexButton.Contains("M") && p.Gender == Gender.Men) || (sexButton.Contains("K") && p.Gender == Gender.Woman) || (sexButton.Contains("U") && p.Gender == Gender.Unisex)) 
                         &&
                             (p.Price >= minPrice && p.Price <= maxPrice)
                         &&
