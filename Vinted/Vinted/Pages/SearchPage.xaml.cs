@@ -26,7 +26,7 @@ public partial class SearchPage : ContentPage
             //        Condition = Enums.ProductCondition.Acceptable 
             //    });
 
-            aktualneProdukty = await App.dbService.GetAllProducts();
+            aktualneProdukty = await App.DbService.GetAllProducts();
         }).Wait();
 
         WyszukajProdukty();

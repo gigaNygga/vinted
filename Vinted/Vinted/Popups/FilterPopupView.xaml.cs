@@ -38,7 +38,7 @@ namespace Vinted.Popups
 
                 var filteredProducts = products
                     .Where(p =>
-                            ((sexButton.Contains("M") && p.Gender == Gender.Men) || (sexButton.Contains("K") && p.Gender == Gender.Woman) || (sexButton.Contains("U") && p.Gender == Gender.Unisex)) 
+                            ((sexButton.Contains("M") && p.Gender == Gender.Man) || (sexButton.Contains("K") && p.Gender == Gender.Woman) || (sexButton.Contains("U") && p.Gender == Gender.Unisex)) 
                         &&
                             (p.Price >= minPrice && p.Price <= maxPrice)
                         &&
