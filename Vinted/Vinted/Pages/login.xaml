@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vinted.Pages.login"
+             Title="login">
+    <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
+
+        <Label Text="Logowanie"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               FontAttributes="Bold" />
+
+        <Entry x:Name="usernameEntry"
+               Placeholder="Nazwa"
+               Keyboard="Default"
+               TextColor="Black"
+               BackgroundColor="LightGray"
+               Margin="0,10,0,0" />
+
+        <Entry x:Name="passwordEntry"
+               Placeholder="Hasło"
+               IsPassword="True"
+               TextColor="Black"
+               BackgroundColor="LightGray"
+               Margin="0,10,0,0" />
+
+        <Button Text="Zaloguj"
+                BackgroundColor="MediumPurple"
+                TextColor="White"
+                Margin="0,20,0,0"
+                Clicked="OnLoginButtonClicked" />
+
+        <Label x:Name="errorMessage"
+               TextColor="Red"
+               FontSize="Small"
+               IsVisible="False"
+               HorizontalOptions="Center"
+               Margin="0,10,0,0" />
+    </StackLayout>
+</ContentPage>

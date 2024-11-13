@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vinted.Pages.Messages"
+             Title="Messages">
+    <StackLayout Padding="20" VerticalOptions="FillAndExpand">
+
+        <Label Text="Message App"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               Margin="0,0,0,20" />
+
+        <!-- Pole do wpisywania wiadomości -->
+        <Editor x:Name="messageEditor"
+                Placeholder="Type your message here..."
+                HeightRequest="150"
+                BackgroundColor="LightGray"
+                TextColor="Black"
+                VerticalOptions="StartAndExpand"
+                Margin="0,0,0,10" />
+
+        <!-- Przycisk wysyłania wiadomości -->
+        <Button Text="Send"
+                BackgroundColor="#007AFF"
+                TextColor="White"
+                Clicked="OnSendButtonClicked"
+                VerticalOptions="Start" />
+
+        <!-- Etykieta wyświetlająca wiadomości -->
+        <ScrollView VerticalOptions="FillAndExpand">
+            <StackLayout x:Name="messageStackLayout">
+                <!-- Tutaj pojawią się wysłane wiadomości -->
+            </StackLayout>
+        </ScrollView>
+
+    </StackLayout>
+</ContentPage>

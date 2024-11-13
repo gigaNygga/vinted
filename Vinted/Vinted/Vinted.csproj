@@ -47,6 +47,7 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
+		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -56,55 +57,36 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\navbar\add.png" />
-	  <None Remove="Resources\Images\navbar\clotheshanger.png" />
-	  <None Remove="Resources\Images\navbar\envelope.png" />
-	  <None Remove="Resources\Images\navbar\home.png" />
-	  <None Remove="Resources\Images\navbar\search.png" />
-	  <None Remove="Resources\Images\navbar\user.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiImage Include="Resources\Images\navbar\add.png" />
-	  <MauiImage Include="Resources\Images\navbar\clotheshanger.png" />
-	  <MauiImage Include="Resources\Images\navbar\envelope.png" />
-	  <MauiImage Include="Resources\Images\navbar\home.png" />
-	  <MauiImage Include="Resources\Images\navbar\search.png" />
-	  <MauiImage Include="Resources\Images\navbar\user.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui.MediaElement" Version="4.1.2" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.71" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
-		<PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.10" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Pages\SearchPage.xaml.cs">
-	    <DependentUpon>SearchPage.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Pages\SearchPage.xaml">
+	  <MauiXaml Update="Pages\login.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\Messages.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\ProductDetailPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+<<<<<<< Updated upstream
+=======
 	  <MauiXaml Update="Pages\SellItemPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\WardrobePage.xaml">
+	  <MauiXaml Update="Pages\settings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\Wardrobe.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+>>>>>>> Stashed changes
 	</ItemGroup>
 
 </Project>

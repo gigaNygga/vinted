@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Vinted.Pages.settings"
+             Title="settings">
+    
+    <StackLayout Padding="20">
+
+        <!-- Zdjęcie profilowe -->
+        <Image x:Name="ProfileImage" WidthRequest="100" HeightRequest="100" 
+               VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Button Text="Zmień zdjęcie" Clicked="OnChangePhotoClicked" />
+
+        <!-- Login -->
+        <Label Text="Login:" />
+        <Entry x:Name="LoginEntry" Placeholder="Wprowadź nowy login" />
+
+        <!-- Hasło -->
+        <Label Text="Hasło:" />
+        <Entry x:Name="PasswordEntry" Placeholder="Wprowadź nowe hasło" IsPassword="True" />
+
+        <!-- Adres -->
+        <Label Text="Adres:" />
+        <Entry x:Name="AddressEntry" Placeholder="Wprowadź nowy adres" />
+
+        <!-- Zapisz -->
+        <Button Text="Zapisz zmiany" Clicked="OnSaveChangesClicked" />
+
+    </StackLayout>
+</ContentPage>
