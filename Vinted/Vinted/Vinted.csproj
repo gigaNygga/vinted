@@ -56,6 +56,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\navbar\add.png" />
+	  <None Remove="Resources\Images\navbar\clotheshanger.png" />
+	  <None Remove="Resources\Images\navbar\envelope.png" />
+	  <None Remove="Resources\Images\navbar\home.png" />
+	  <None Remove="Resources\Images\navbar\search.png" />
+	  <None Remove="Resources\Images\navbar\user.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\navbar\add.png" />
+	  <MauiImage Include="Resources\Images\navbar\clotheshanger.png" />
+	  <MauiImage Include="Resources\Images\navbar\envelope.png" />
+	  <MauiImage Include="Resources\Images\navbar\home.png" />
+	  <MauiImage Include="Resources\Images\navbar\search.png" />
+	  <MauiImage Include="Resources\Images\navbar\user.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui.MediaElement" Version="4.1.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.71" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
@@ -82,6 +100,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SellItemPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\WardrobePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

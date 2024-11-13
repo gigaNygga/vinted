@@ -58,13 +58,15 @@
                 FontSize="Micro"
                 HorizontalOptions="Start"/>
 
-            <Picker ItemsSource="{Binding GenderOptions}"/>
+            <Picker x:Name="GenderPicker" 
+                    ItemsSource="{Binding GenderOptions}"/>
 
             <Label Text="Stan twojego przedmiotu"
                 FontSize="Micro"
                 HorizontalOptions="Start"/>
 
-            <Picker ItemsSource="{Binding ProductConditionOptions}"/>
+            <Picker x:Name="ConditionPicker"
+                ItemsSource="{Binding ProductConditionOptions}"/>
 
             <Label Text="Cena"
                 FontSize="Micro"

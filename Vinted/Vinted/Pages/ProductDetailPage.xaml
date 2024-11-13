@@ -6,9 +6,26 @@
              Shell.NavBarIsVisible="False">
     <ScrollView>
         <VerticalStackLayout Padding="20">
-            <Image Source="{Binding Image}" 
-               HeightRequest="200" 
-               Aspect="AspectFit"/>
+            <CollectionView x:Name="PhotosCollectionView"
+                ItemsSource="{Binding Photos}"
+                HeightRequest="150"
+                HorizontalScrollBarVisibility="Always"
+                ItemsLayout="HorizontalList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="5"
+                            Margin="5"
+                            HasShadow="True"
+                            WidthRequest="120"
+                            HeightRequest="120">
+                            <Image Source="{Binding}"
+                               Aspect="AspectFill"
+                               HeightRequest="120"
+                               WidthRequest="120"/>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
             <Label Text="{Binding Name}" 
                FontSize="Large" 
@@ -18,8 +35,20 @@
             <Label Text="{Binding Price}" 
                FontSize="Medium"/>
 
+            <Label Text="Opis"
+                   FontSize="Caption"/>
+
+            <Label Text="{Binding Description}"/>
+            
+            <Label Text="{Binding Gender}"/>
+
+            <Label Text="{Binding Condition}"/>
+
             <Button Text="Powrót"
                 Clicked="BackButtonClicked"/>
+
+            <Button Text="Usun"
+                Clicked="Usun"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

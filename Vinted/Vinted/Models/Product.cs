@@ -31,5 +31,17 @@ namespace Vinted.Models
 
         [Column("previousPrice")]
         public decimal? PreviousPrice { get; set; }
+
+        public string? FirstImage => ImagesPath?.Split(',').FirstOrDefault();
+        
+        public string SetImagePaths(List<string> paths)
+        {
+            return ImagesPath = string.Join(",", paths);
+        }
+
+        public List<string> GetImagePaths()
+        {
+            return ImagesPath?.Split(',').ToList() ?? new List<string>();
+        }
     }
 }

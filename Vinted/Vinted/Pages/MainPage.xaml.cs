@@ -1,33 +1,59 @@
-﻿using Vinted.Popups;
-﻿using System.Xml.Linq;
+﻿using System.ComponentModel;
+using System.Windows.Input;
 
 namespace Vinted.Pages
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : ContentPage, INotifyPropertyChanged
     {
-            public MainPage()
+        private bool isRefreshing;
+        public bool IsRefreshing
+        {
+            get => isRefreshing;
+            set
             {
-                InitializeComponent();
-
-                Task.Run(async () =>
+                if (isRefreshing != value)
                 {
-                    await App.dbService.CreateProduct( new Models.Product { Name = "asasina", Description = "aaaa", Price = 170, Gender = Enums.Gender.Woman, Condition = Enums.ProductCondition.Damaged });
-                    ListaProduktow.ItemsSource = await App.dbService.GetAllProducts();
-                });
-
-                BindingContext = this;
+                    BindingContext = this;
+                    isRefreshing = value;
+                    OnPropertyChanged(nameof(IsRefreshing));  
+                }
             }
+        }
+
+        public ICommand RefreshCommand { get; }
+        public MainPage()
+        {
+            InitializeComponent();
+
+            RefreshCommand = new Command(async () => await RefreshProducts());
+            BindingContext = this;
+
+            Task.Run(async () => await LoadProducts());
+        }
+
+        private async Task RefreshProducts()
+        {
+            IsRefreshing = true;
+            await LoadProducts();
+            IsRefreshing = false;
+        }
+
+        private async Task LoadProducts()
+        {
+            var products = await App.DbService.GetAllProducts();
+
+            ListaProduktow.ItemsSource = products;
+        }
 
         private async void OnProductDoubleTapped(object sender, TappedEventArgs e)
         {
             var frame = sender as Frame;
-            //var product = frame?.BindingContext as Product;
+            var product = frame?.BindingContext as Models.Product;
 
-            //if (product != null)
-                //await Navigation.PushAsync(new ProductDetailPage(product));
+            if (product != null)
+                await Navigation.PushAsync(new ProductDetailPage(product.Id));
         }
 
-#pragma warning disable CS8604 // Możliwy argument odwołania o wartości null.
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
             if (userInput.Text != null && userInput.Text != "")
@@ -35,7 +61,6 @@ namespace Vinted.Pages
                 await Navigation.PushAsync(new SearchPage(userInput.Text));
             }
         }
-#pragma warning restore CS8604 // Możliwy argument odwołania o wartości null.
     }
 
     //public class Product

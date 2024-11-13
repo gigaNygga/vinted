@@ -20,6 +20,7 @@ namespace Vinted
             builder.Services.AddTransient<ProductDetailPage>();
             builder.Services.AddTransient<SearchPage>();
             builder.Services.AddTransient<SellItemPage>();
+            builder.Services.AddTransient<WardrobePage>();
 #if DEBUG
             builder.Logging.AddDebug();
 #endif
