@@ -62,7 +62,7 @@
                                           Tapped="TapGestureRecognizer_Tapped"/>
                                 </Frame.GestureRecognizers>
                                 <StackLayout>
-                                    <Image Source="{Binding Image}" Aspect="AspectFill" HeightRequest="150"/>
+                                    <Image Source="{Binding FirstImage}" Aspect="AspectFill" HeightRequest="150"/>
                                     <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Medium" Margin="7, 0, 5, 0" />
                                     <Label Text="{Binding Price}" FontSize="Medium" Margin="7, 0, 5, 5" />
                                 </StackLayout>

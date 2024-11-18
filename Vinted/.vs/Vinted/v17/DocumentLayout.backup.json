@@ -72,10 +72,9 @@
               "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml",
               "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml",
               "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-13T08:14:56.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:14:56.519Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "Vinted\\Pages\\SearchPage.xaml.cs",
               "ToolTip": "C:\\Users\\5TP\\Documents\\GitHub\\vinted\\Vinted\\Vinted\\Pages\\SearchPage.xaml.cs",
               "RelativeToolTip": "Vinted\\Pages\\SearchPage.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T08:13:37.211Z",
               "EditorCaption": ""
@@ -124,8 +123,7 @@
               "RelativeToolTip": "Vinted\\Pages\\WardrobePage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-04T12:45:13.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T12:45:13.705Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "Vinted\\Pages\\ProductDetailPage.xaml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwCgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-23T11:35:11.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T11:35:11.174Z"
             },
             {
               "$type": "Document",
