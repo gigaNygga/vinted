@@ -26,10 +26,10 @@
 
         <ShellContent Title="Wiadomości"
                 Icon="navbar/envelope.png"
-                ContentTemplate="{DataTemplate pages:MainPage}"/>
+                ContentTemplate="{DataTemplate pages:Messages}"/>
 
         <ShellContent Title="Profil"
                 Icon="navbar/user.png"
-                ContentTemplate="{DataTemplate pages:MainPage}"/>
+                ContentTemplate="{DataTemplate pages:login}"/>
     </TabBar>
 </Shell>
