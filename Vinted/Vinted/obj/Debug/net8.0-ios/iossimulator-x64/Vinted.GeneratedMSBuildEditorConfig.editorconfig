@@ -52,8 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.ProductDetail
 build_metadata.AdditionalFiles.TargetPath = Pages\ProductDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ProductDetailPage.xaml
 
-<<<<<<< Updated upstream
-=======
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SearchPage.xaml
+
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/SellItemPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.SellItemPage.xaml
@@ -72,7 +76,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.Wardrobe.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Wardrobe.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Wardrobe.xaml
 
->>>>>>> Stashed changes
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Pages/WardrobePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Pages.WardrobePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\WardrobePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\WardrobePage.xaml
+
+[C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Popups/FilterPopupView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Popups.FilterPopupView.xaml
+build_metadata.AdditionalFiles.TargetPath = Popups\FilterPopupView.xaml
+build_metadata.AdditionalFiles.RelativePath = Popups\FilterPopupView.xaml
+
 [C:/Users/5TP/Documents/GitHub/vinted/Vinted/Vinted/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Vinted.Resources.Styles.Colors.xaml
